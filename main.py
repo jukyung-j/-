@@ -22,7 +22,7 @@ def get_href(soup):
 def get_request(section, page):
     custom_header = {
         'referer' : 'https://www.naver.com/',
-        'user-agent' : 'Mozilla/5.0 (Macintosh; Intel Max OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36'
+        'user-agent' : '**'
     }
     url = "https://news.naver.com/main/list.nhn"
 
